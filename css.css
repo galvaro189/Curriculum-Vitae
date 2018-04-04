@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+body{
+    margin: 0 auto;
+    font-size: 1.5em;
+    background-color: #4b3a7f;
+}
+h1{
+    font-family: 'Permanent Marker',sans-serif;
+    font-size: 4em;
+    text-align: center ;
+    margin: 0;
+    color: white;
+}
+
+h2{
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+h3{
+    margin: 10px;
+}
+
+div#ESO{
+    background-color: #959595;
+    margin: 50px;
+    padding: 10px;
+}
+
+div#medio{
+    background-color: #959595;
+    margin: 50px;
+    padding: 10px;
+}
+div#personal {
+    margin: 0 auto;
+    background-color: #363636;
+    width: 1000px;
+    color: white;
+}
+
+div#formacion {
+    margin: 0 auto;
+    background-color: #363636;
+    width: 1000px;
+    color: white;
+    padding-top: 10px;
+}
+
+table{
+    width: 1000px;
+}
+
+td#info {
+    text-align: center;
+    margin: 0 auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#foto {
+    padding-top: 30px;
+}
+
+p#fecha{
+    background-color: #5e5e5e;
+    background-image: url("img/calendario.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 50px;
+    font-size: 1.2em;
+    margin: 0 40px 20px;
+    padding-top: 5px;
+}
+
+p#direccion{
+    background-color: #5e5e5e;
+    background-image: url("img/direccion.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 50px;
+    font-size: 1.2em;
+    margin: 0 40px 20px;
+    padding-top: 5px;
+}
+
+p#telefono {
+    background-color: #5e5e5e;
+    background-image: url("img/telefono.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 50px;
+    font-size: 1.2em;
+    margin: 0 40px 20px;
+    padding-top: 5px;
+    padding-left: 70px;
+}
+
+p#dni {
+    background-color: #5e5e5e;
+    background-image: url("img/dni.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 50px;
+    font-size: 1.2em;
+    margin: 0 40px 20px;
+    padding-top: 5px;
+    padding-left: 70px;
+}
+
+p#nacionalidad {
+    background-color: #5e5e5e;
+    background-image: url("img/nacionalidad.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 50px;
+    font-size: 1.2em;
+    margin: 0 40px 20px;
+    padding-top: 5px;
+    padding-left: 70px;
+}
+
+p#correo {
+    background-color: #5e5e5e;
+    background-image: url("img/mail.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 50px;
+    font-size: 1.2em;
+    margin: 0 40px 20px;
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+p#direccion:hover {
+    background-color: #8a6d3b;
+}
+
+p#correo:hover {
+    background-color: #8a6d3b;
+}
+
+p#nacionalidad:hover {
+    background-color: #8a6d3b;
+}
+
+p#fecha:hover {
+    background-color: #8a6d3b;
+}
+
+p#telefono:hover {
+    background-color: #8a6d3b;
+}
+
+p#dni:hover {
+    background-color: #8a6d3b;
+}
+
+p#lasalle {
+    margin-left: 10px;
+}
+td[colspan='2']{
+    padding-top: 30px;
+}
+.fecha {
+    text-align: center;
+}
+div#foto {
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+.activo {
+    background-color: red;
+}
