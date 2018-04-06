@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Geostar+Fill');
 
 body{
     margin: 0 auto;
@@ -17,12 +18,17 @@ h2{
     text-transform: uppercase;
     margin: 0;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 h3{
     margin: 10px;
 }
 
+div#formacion h2 {
+    padding-top: 50px;
+    font-family: 'Geostar Fill', sans-serif;
+}
 div#ESO{
     background-color: #959595;
     margin: 50px;
@@ -34,6 +40,13 @@ div#medio{
     margin: 50px;
     padding: 10px;
 }
+
+div#superior{
+    background-color: #959595;
+    margin: 50px;
+    padding: 10px;
+}
+
 div#personal {
     margin: 0 auto;
     background-color: #363636;
@@ -48,9 +61,25 @@ div#formacion {
     color: white;
     padding-top: 10px;
 }
+div#publicaciones {
+    margin: 0 auto;
+    background-color: #363636;
+    width: 1000px;
+    color: white;
+    padding-top: 10px;
+}
 
 table{
     width: 1000px;
+}
+table#publi{
+    width: 1000px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.formacion {
+    width: 880px;
 }
 
 td#info {
@@ -161,22 +190,30 @@ p#dni:hover {
     background-color: #8a6d3b;
 }
 
-p#lasalle {
+p#lasalle,p#Camino,p#Bosco,small {
     margin-left: 10px;
 }
+
 td[colspan='2']{
     padding-top: 30px;
 }
 .fecha {
     text-align: center;
+    width: 180px;
 }
+
 div#foto {
     text-align: center;
 }
 
-img{
+img#yo{
     height: 400px;
     width: 300px;
+}
+
+img#logo {
+    width: 300px;
+    height: 300px;
 }
 
 ul {
@@ -186,7 +223,14 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
+table#publi td {
+    padding: 20px;
+    background-color: #5e5e5e;
+}
+a:hover{
+    text-decoration-line: underline ;
+    color: yellow;
+}
 li {
     float: left;
 }
