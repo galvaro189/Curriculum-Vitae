@@ -83,6 +83,15 @@ div#experiencia {
     border: 2px solid white;
 }
 
+div#interes {
+    margin: 0 auto;
+    background-color: #363636;
+    width: 1000px;
+    color: white;
+    padding-top: 10px;
+    border: 2px solid white;
+}
+
 div#contacto {
     background-color: black;
     padding-left: 350px;
@@ -260,7 +269,50 @@ img#logo {
     height: 300px;
 }
 
-ul {
+img[alt="Lupa"] {
+    width: 50px;
+    height: 50px;
+}
+
+img[alt="JEC"] {
+    width: 50px;
+    height: 50px;
+}
+
+img[alt="rockstro"] {
+    width: 50px;
+    height: 50px;
+}
+
+img[alt="muybajo"] {
+    width: 50px;
+    height: 50px;
+}
+
+img[alt="bajo"] {
+    width: 50px;
+    height: 50px;
+}
+
+img[alt="medio"] {
+    width: 50px;
+    height: 50px;
+}
+
+img[alt="alto"] {
+    width: 50px;
+    height: 50px;
+}
+
+table#intereses, #informatica {
+    width: 500px;
+}
+
+#datos, #niveles {
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+.desordenada {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -276,12 +328,12 @@ a:hover{
     text-decoration-line: underline ;
     color: yellow;
 }
-li {
+.menu {
     float: left;
     border: 1px solid white;
 }
 
-li a {
+.menu a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -289,7 +341,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.menu a:hover {
     background-color: #111111;
 }
 
