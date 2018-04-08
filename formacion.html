@@ -12,7 +12,7 @@
             <ul>
                 <li><a href="index.html">Datos Personales</a></li>
                 <li><a href="#" class="activo">Formación</a></li>
-                <li><a href="#">Experiencia</a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
                 <li><a href="Publicaciones.html">Publicaciones</a></li>
                 <li><a href="#about">Datos de Interés</a></li>
             </ul>
@@ -70,8 +70,29 @@
                 </tr>
             </table>
         </div>
-
-
+    </div>
+    <div id="contacto">
+        <form>
+            <table id="formulario">
+                <tr>
+                    <td>
+                        <label for="name">Tu nombre:</label><br/>
+                        <input id="name" class="input" name="name" type="text"><br/>
+                        <label for="email">Tu email:</label><br/>
+                        <input id="email" class="input" name="email" type="text"><br/>
+                    </td>
+                    <td>
+                        <label for="mensaje">Tu mensaje:</label><br/>
+                        <textarea id="mensaje" class="input" name="message" rows="7" cols="30"></textarea><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="boton">
+                        <button>Enviar</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
     </div>
 </body>
 </html>
